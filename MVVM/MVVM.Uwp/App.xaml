@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="MVVM.Uwp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MVVM.Uwp"
+     xmlns:nativeConverters="using:MVVM.Uwp.Converters"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <nativeConverters:NativeColorConverter x:Name="NativeColor" />
+        <nativeConverters:RGBAValueConverter  x:Name="RGBA" />
+        <nativeConverters:NativeVisibilityConverter x:Name="Visibility" />
+    </Application.Resources>
+</Application>

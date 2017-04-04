@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        local:MvxBind="Text Username" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        local:MvxBind="Text Password" />
+    <Button
+        android:text="Entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Visibility Visibility(IsCorrect); Click LoginCommand"
+        android:id="@+id/acceder" />
+</LinearLayout>
