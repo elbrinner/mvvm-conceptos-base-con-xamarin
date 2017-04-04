@@ -1,4 +1,4 @@
-# MVVM - ejemplo con loa conceptos básicos
+# MVVM - ejemplo con los conceptos básicos
 
 Ejemplo creado para explicar la forma de trabajar con MVC vs MVVM
 
@@ -9,9 +9,15 @@ La idea es explicar como se puede compartir código común entre plataformas y e
 Este ejemplo usa:
 
 => MVVM con MVVMCROSS
+
 => Converter de color
+
 => Converter de visibilidad
+
 => Binding
+
 => Command
+
 => Notificaciones a la vista
+
 => Navegación
